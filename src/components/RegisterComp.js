@@ -1,7 +1,7 @@
 import React from 'react'
-import { useNavigate } from "react-router-dom";
+{/* import { useNavigate } from "react-router-dom"; */}
 export default function RegisterComp() {
-  const navigate = useNavigate();
+  {/*const navigate = useNavigate();*/}
   return (
     <>
       
