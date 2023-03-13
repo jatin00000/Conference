@@ -5,7 +5,7 @@ import Navbar from'./components/navbar'
 import Home from'./components/Home'
 import Abstract from'./components/Abstract'
 import Register from'./components/Register'
-import Places from './components/Places'
+
 
 import './index.css'
 function App() {
