@@ -1,7 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 export default function Content() {
-  const navigate = useNavigate();
   return (
     <div>
       <div className="back1">
