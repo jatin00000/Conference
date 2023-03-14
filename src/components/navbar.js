@@ -10,8 +10,7 @@ function Navbar(props) {
 		navRef.current.classList.toggle("responsive_nav");
 		props.func();
 	};
-	const pageURL =  window.location.hostname === "www.icspt.iitp.ac.in" ? "" : "/~icspt";
-	console.log(pageURL+"<-")
+	const pageURL =  (window.location.hostname === "icspt.iitp.ac.in") ? "" : "/~icspt";
 	return (
 		<header className='fixed-top'>
 			<h3> </h3>
