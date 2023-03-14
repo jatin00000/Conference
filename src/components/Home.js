@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
     <Caroule/>
-    <section id="about"><Content /></section>
+    <div id="about"><Content /></div>
       <section id="speaker"><Speaker/></section>
       <section id="submission"><AbstractContent/></section>
       <section id="register_comp"><RegisterComp/></section>

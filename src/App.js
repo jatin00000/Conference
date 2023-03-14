@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import {HashRouter, Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer'
 import Navbar from'./components/navbar'
 import Home from'./components/Home'
@@ -15,23 +15,27 @@ function App() {
       }
   return (
 
-    <>
+    
 
       
       
       
-          <Router>
-    <Navbar func={func}/>
+          <HashRouter>
+            <Navbar func={func}/>
+            <Routes>
+    
 
-      <Routes>
+
           <Route exact path='/' element={show && <Home/>} />
-<Route exact path='/register' element={show &&  <Register/>} />
+<Route exact  path='/register' element={show &&  <Register/>} />
   <Route exact path='/abstract' element={show && <Abstract/>} />
-      </Routes>
       
-    <Footer show={show}/>
-    </Router>
-    </>
+      
+    
+</Routes>
+<Footer show={show}/>
+    </HashRouter>
+ 
     
   );
 }

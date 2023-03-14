@@ -1,7 +1,7 @@
 import React from 'react'
-//import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 export default function RegisterComp() {
-//const navigate = useNavigate();
+const navigate = useNavigate();
   return (
     <>
       
@@ -72,7 +72,7 @@ export default function RegisterComp() {
           </tbody>
         </table></div>
   <div className="d-flex justify-content-around">
-     {/* <div className=""><button onClick={() => navigate("/register")} class="btn btn-primary btn-lg btn-block m-2">Register</button></div> */}
+     <div className=""><button onClick={() => navigate("/register")} class="btn btn-primary btn-lg btn-block m-2">Register</button></div>
      <div className="fs-5 m-2 r2">To be updated soon</div>
 </div>
 <br></br>
