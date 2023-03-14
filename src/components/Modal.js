@@ -10,8 +10,8 @@ export default function Modal(props) {
 </button>
             </div>  
 
-
-<div className="modal  fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" id={`exampleModal${props.id}`}>
+<div id="staticBackdrop">
+<div className="modal  fade"  data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" id={`exampleModal${props.id}`}>
   <div className="modal-dialog  modal-dialog-centered modal-dialog-scrollable ">
     <div className="modal-content o1">
       <div className="modal-header">
@@ -39,6 +39,6 @@ export default function Modal(props) {
     </div>
   </div>
 </div>
-            </>
+</div>           </>
     )
 }
