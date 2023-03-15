@@ -10,7 +10,6 @@ function Navbar(props) {
 		navRef.current.classList.toggle("responsive_nav");
 		props.func();
 	};
-	const pageURL =  (window.location.hostname === "localhost") ? "" : "/~icspt";
 	return (
 		<header className='fixed-top'>
 			<h3> </h3>
@@ -19,13 +18,13 @@ function Navbar(props) {
 					showNavbar();
 				}
 			}}>
-				<HashLink to={`${pageURL}/#about`} className="text-white nav-link">Home</HashLink>
-				<HashLink to={`${pageURL}/#speaker`} className="text-white nav-link">Speakers</HashLink>
-				<HashLink to={`${pageURL}/#submission`} className="text-white nav-link">Submission</HashLink>
-				<HashLink to={`${pageURL}/#register_comp`} className="text-white nav-link">Register</HashLink>
-				<HashLink to={`${pageURL}/#schedule`} className="text-white nav-link">Schedule</HashLink>
-				<HashLink to={`${pageURL}/#theme`} className="text-white nav-link">Theme</HashLink>
-				<HashLink to={`${pageURL}/#timeline`} className="text-white nav-link">Timeline</HashLink>
+				<HashLink to="/#about" className="text-white nav-link">Home</HashLink>
+				<HashLink to="/#speaker" className="text-white nav-link">Speakers</HashLink>
+				<HashLink to="/#submission" className="text-white nav-link">Submission</HashLink>
+				<HashLink to="/#register_comp" className="text-white nav-link">Register</HashLink>
+				<HashLink to="/#schedule" className="text-white nav-link">Schedule</HashLink>
+				<HashLink to="/#theme" className="text-white nav-link">Theme</HashLink>
+				<HashLink to="/#timeline" className="text-white nav-link">Timeline</HashLink>
 				<button
 					className="nav-btn nav-close-btn"
 				>
