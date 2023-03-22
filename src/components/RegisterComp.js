@@ -24,18 +24,18 @@ export default function RegisterComp() {
           <tbody className="r4">
             <tr>
               <th scope="row">Students</th>
-              <td>Rs. 3,500/-</td>
-              <td>Rs. 4,000/-</td>
+              <td>₹ 3,500.00</td>
+              <td>₹ 4,000.00</td>
             </tr>
             <tr>
               <th scope="row">Faculty/ Academic/ Research/ Startup staff</th>
-              <td>Rs. 5,500/-</td>
-              <td>Rs. 6,500/-</td>
+              <td>₹ 5,500.00</td>
+              <td>₹ 6,500.00</td>
             </tr>
             <tr>
               <th scope="row">Industry participants</th>
-              <td >Rs. 7,000/-</td>
-              <td>Rs. 9,000/-</td>
+              <td >₹ 7,000.00</td>
+              <td>₹ 9,000.00</td>
             </tr>
           </tbody>
         </table></div>
@@ -56,18 +56,18 @@ export default function RegisterComp() {
           <tbody className="r4">
             <tr>
               <th scope="row">Students</th>
-              <td>Rs. 5,000/-</td>
-              <td>Rs. 6,000/-</td>
+              <td>₹ 5,000.00</td>
+              <td>₹ 6,000.00</td>
             </tr>
             <tr>
               <th scope="row">Faculty/ Academic/ Research/ Startup staff</th>
-              <td>Rs. 8,000/-</td>
-              <td>Rs. 10,000/-</td>
+              <td>₹ 8,000.00</td>
+              <td>₹ 10,000.00</td>
             </tr>
             <tr>
               <th scope="row">Industry participants</th>
-              <td >Rs. 10,500/-</td>
-              <td>Rs. 12,500/-</td>
+              <td >₹ 10,500.00</td>
+              <td>₹ 12,500.00</td>
             </tr>
           </tbody>
         </table></div>
