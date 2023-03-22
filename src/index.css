@@ -75,7 +75,7 @@
 }
 .z5{
   background-color: 
-    rgba(0, 0, 0, 0.5);
+    rgba(0, 0, 0, 0.7);
 }
 @media screen and (max-width: 991px) and (min-width: 768px){
     .navbar-expand-lg .navbar-collapse {
