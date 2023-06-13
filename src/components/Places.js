@@ -28,6 +28,25 @@ Other major tourist spots around Patna include Nalanda, Rajgir, and Bodh Gaya. F
               </p>
               <br/>
               <br/>
+              <h1>IIT PATNA</h1>
+              <p>
+                            
+              IIT Patna is a premier educational and research institute in India that was established on 6th August 2008. Currently, IIT Patna has six engineering and three science departments along with a department of humanities and social sciences. There are over three thousand five hundred students and over three fifty staff and faculty members on campus. The institute routinely hosts several international and national seminars, conferences, and other technical meetings to promote research in various fields.
+          The campus is located in pristine land just about 35 km away from the main Patna city and airport. It is well connected by roadways to the city and other destinations such as Bodh Gaya, Rajgir, and Nalanda.
+          For more details about the institute, please visit the institute website <a target="_blank" rel="noopener noreferrer" href="https://www.iitp.ac.in/" className="link-light">here</a>.
+
+
+              </p>
+              <br/>
+              <br/>
+              <h1>About Chemical and Biochemical Engineering Department</h1>
+              <p>
+                            
+              The Chemical and Biochemical Engineering department of IITP was instituted in the year 2014. The department presently offers Bachelor of Technology, Master of Technology by Research, and Doctor of Philosophy degrees in Chemical Engineering. These programs aim to develop highly-qualified, self-motivated graduates who are independent and open-minded individuals capable of contributing to the industry, academia, and research and development programs.
+          Currently, the department has 8 faculty members who are eager to contribute innovative solutions to meet societal needs. The department has established well-equipped laboratories for teaching and research purposes. The facilities in the department are focused on experiments and simulations applicable to various sectors like energy, specialty chemicals, materials, and waste management. Over 20 Ph.D. research scholars, 180 UG students, and around 100 alumni are proud members of the department. For more details, please click <a href="https://www.iitp.ac.in/index.php/departments/engineering-technology/chemical-and-biochemical-engineering" target="_blank" rel="noopener noreferrer" className="link-dark">Click here.</a><br></br><br></br>
+  
+
+              </p>
             </div>
 
 

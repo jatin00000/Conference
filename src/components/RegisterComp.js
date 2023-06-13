@@ -73,8 +73,15 @@ export default function RegisterComp() {
         </table></div>
   <div className="d-flex justify-content-around">
      {/* <div className=""><button onClick={() => navigate("/register")} class="btn btn-primary btn-lg btn-block m-2">Register</button></div> */}
-     <div className="fs-5 m-2 r2">To be updated soon</div>
-</div>
+     <div className="fs-5 m-2 r2">For registration, please make your payment online via the link below and then complete the registration form.
+            <br/>
+            Payment link:
+            <br/>
+            Registration form:
+            <br/>
+            For instructions, please see this document.
+            </div>
+    </div>
 <br></br>
       </div>
         </div>

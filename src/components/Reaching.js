@@ -11,7 +11,7 @@ export default function Reaching() {
             <div className=" fs-5 r2 m-2">
               IIT Patna's campus is located at Bihta, 35 km from Patna, at a 501 acres (203 ha) site. The nearest railway station is Bihta, 2 km from the campus. It is located 28 km west of Patna Junction railway station. The nearest airport to reach the IIT Patna campus is Jai Prakash Narayan Domestic Airport, Patna, which is about 35 km (about an hour's drive) from the campus.
 
-</div>
+            </div>
             <table className="   border-primary"><div className="p-3   r4  "> <div className="fs-2 r3 text-left ">Flight</div> Patna is well connected with metro cities of India via frequent flights. International travelers could book flights with stopovers at Delhi, Mumbai, Chennai, or Hyderabad. Cabs from the airport to the campus would cost around ₹ 1,400.00 to ₹ 1,600.00 and can be obtained either by pre-booking or on the spot.
 </div>
             </table>
@@ -30,7 +30,19 @@ export default function Reaching() {
             <table className="   border-primary"><div className="p-3  r4  "> <div className="fs-2 r3 text-left">Taxi/Cab</div> You can also opt for a cab (Ola outstation) or pre-paid taxi from Patna. The general fare would be around ₹ 1400.00-1600.00 from Patna.
 
 
+</div></table>
+            <table className="   border-primary"><div className="p-3  r4  "> <div className="fs-2 r3 text-left">Accommodation</div> On-campus accommodation can be obtained by participants on a payment basis as per the details provided below, subject to availability.
+<br/>
+Guest House - single room Rs. 1000/-, Double room Rs. 1500/- (per day, GST extra)
+<br/>
+Student Hostel (separate hostels for boys and girls) - guest room (shared) Rs. 200/- (per day, GST extra)
+<br/>
+Prior booking of the accommodation would be required. The conference team will get in touch with you regarding accommodation, after you complete the registration process.
+
+
 </div><br></br>
+
+
             </table>
 
             <div className="mapouter"><div className="gmap_canvas"><iframe title="myframe" className="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=IIT Patna&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div></div>
@@ -47,7 +59,8 @@ export default function Reaching() {
         {/* <div className=" fs-5 text-dark m-2">For international participants who require a letter from the organizer for visa application, please fill out the online form here. </div>        <br /> */}
         <br />
         <br />
-        <div className=" fs-5 text-dark text-center m-2">To be updated soon</div>        <br />
+        <div className=" fs-5 text-dark text-center m-2">For international participants who require a letter from the organizer for visa application, please fill out the online form here. (https://forms.office.com/r/nPSZZeuMK0 - to open in another tab)
+</div>        <br />
         <br />
         <br />
         <br />

@@ -14,13 +14,15 @@ export default function Home() {
     <>
     <Caroule/>
     <div id="about"><Content /></div>
+      <section id="theme"><Theme/></section>
       <section id="speaker"><Speaker/></section>
       <section id="submission"><AbstractContent/></section>
       <section id="register_comp"><RegisterComp/></section>
+      <section id="timeline"><Timeline /></section>
       <section id="schedule"><Schedule /></section>
       
-      <section id="theme"><Theme/></section>
-      <section id="timeline"><Timeline /></section>
+      
+      
       
     
       <section id="reaching"><Reaching/></section>
