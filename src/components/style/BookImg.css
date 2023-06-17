@@ -1,0 +1,43 @@
+#BookImg{
+    width: 70%;
+    position:relative;
+    left: 30%;
+}
+
+#BookDetail{
+    position: relative;
+    top: 40%;font-size: 40px;
+    left: 10%;
+    padding: 10px;
+}
+
+@media screen and (768px <= width < 992px ) {
+    #BookImg {
+        width: 300px;
+        left: 20%
+    }
+    #BookDetail{
+        top: 30%;font-size: 30px;
+        left: 5%;
+    }
+}
+@media screen and (576px <= width <768px ) {
+    #BookImg {
+        width: 200px;
+        left: 20%
+    }
+    #BookDetail{
+        top: 10%;font-size: 20px;
+        left: 5%;
+    }
+}
+
+@media screen and (width < 576px) {
+    #BookImg{
+        left: 10%;
+        width: 150px;
+    }
+    #BookDetail{
+        font-size: 20px;
+    }
+}

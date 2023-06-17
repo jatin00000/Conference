@@ -1,62 +1,136 @@
 import React from "react";
+import PhotoComp from "../documents/Photography competiton.pdf";
+import ConfBroc from "../documents/ICSPT Brochure.pdf";
 export default function Content() {
   return (
-    <div>
+    <div className="">
       <div className="back1s">
-        <div className="container"><div className="he1 text-center fs-3 p-2">About the Conference</div>
-          <div className="hea2 fs-5 p-2">
-            The International Conference on Separation and Purification Technologies (ICSPT) aims at highlighting recent scientific developments in the area of separation and purification techniques and to bring together researchers working in these areas. The primary focus of the conference will be on developments applicable in the following industries:
-    <ul>
+        <div className="">
+          <div className="he1 text-center fs-3 p-2">About the Conference</div>
+          <div className="ABSTEXT  p-2">
+            The International Conference on Separation and Purification
+            Technologies (ICSPT) aims at highlighting recent scientific
+            developments in the area of separation and purification techniques
+            and to bring together researchers working in these areas. The
+            primary focus of the conference will be on developments applicable
+            in the following industries:
+            <ul>
               <li>Pharmaceutical Industry</li>
               <li>Agrochemical Industry</li>
               <li>Food Industry</li>
             </ul>
-            The conference will provide a platform to bring together academicians, industrialists, and entrepreneurs working in the above areas to share their knowledge. The conference will also witness a pre-conference workshop and an agro-processing startup meet. The workshop will focus on advanced research methodologies and analytical tools used in separation and purification processes.
-    </div></div>
-
+            The conference will provide a platform to bring together
+            academicians, industrialists, and entrepreneurs working in the above
+            areas to share their knowledge. The conference will also witness a
+            pre-conference workshop and an agro-processing startup meet. The
+            workshop will focus on advanced research methodologies and
+            analytical tools used in separation and purification processes.
+          </div>
+        </div>
       </div>
-      <div className="back2">
-
-        <div className="container"><div className="he1 text-center p-2 fs-3"><br></br>Pre-conference Workshop</div>
-          <div className=" hea2 p-2 fs-5">
-            The workshop will focus on the research and analytical techniques utilized in downstream separation processes. The sessions will be handled by experts from academic and industrial organizations. A hands-on session on the application of Design of Experiments (DoE), preparation of research proposals, and commercialization of research would be useful for all research scholars, beyond the theme of the conference. The details of the session topics and speakers will be updated shortly on the website.
-            The number of seats for the pre-conference workshop would be limited and the registrations will be approved on a first-cum-first-serve basis.
-
-<br></br>
+      <div className="back1s">
+        <div className="">
+          <div className="he1 text-center p-2 fs-3">
+            <br></br>Pre-conference Workshop
+          </div>
+          <div className=" ABSTEXT p-2">
+            The workshop will focus on the research and analytical techniques
+            utilized in downstream separation processes. The sessions will be
+            handled by experts from academic and industrial organizations. A
+            hands-on session on the application of Design of Experiments (DoE),
+            preparation of research proposals, and commercialization of research
+            would be useful for all research scholars, beyond the theme of the
+            conference. The details of the session topics and speakers will be
+            updated shortly on the website. The number of seats for the
+            pre-conference workshop would be limited and the registrations will
+            be approved on a first-cum-first-serve basis.
             <br></br>
-
-
-
-
-
-          </div></div>
-
+            <br></br>
+          </div>
+        </div>
       </div>
-      <div className="back1"><div className="container"><div className="hea1 text-center p-2 fs-3">Agro-processing Startup Meet</div>
-        <div className=" he2 p-2 fs-5">
-          Startups play a major role in the translation of research for the benefit of the general public. The startup ecosystem is also an overlooked career opportunity for research scholars in India. Hosting a startup session along with the technical conference aims at bridging the gap between research and startups. While startups can benefit from recent technological developments, researchers can secure an opportunity to work closely on translating their knowledge base for marketable outputs.
+      <div className="back1s">
+        <div className="">
+          <div className="he1 text-center p-2 fs-3">
+            Agro-processing Startup Meet
+          </div>
+          <div className=" ABSTEXT p-2">
+            Startups play a major role in the translation of research for the
+            benefit of the general public. The startup ecosystem is also an
+            overlooked career opportunity for research scholars in India.
+            Hosting a startup session along with the technical conference aims
+            at bridging the gap between research and startups. While startups
+            can benefit from recent technological developments, researchers can
+            secure an opportunity to work closely on translating their knowledge
+            base for marketable outputs.
+          </div>
+        </div>
+      </div>
 
+      <div className="back1s">
+        <div className="">
+          <div className="he1 text-center p-2 fs-3">
+            <br></br>Research Photography Competition
+          </div>
+          <div className=" ABSTEXT p-2">
+            The event will also include a research photography competition.
+            Images related to research, taken with a microscope or normal camera
+            may be submitted through the link provided below. Submissions may
+            include experimental setups, laboratories, equipment, microscopic
+            images, etc. The photographs need not be directly related to the
+            theme of the conference. Only original images taken by the
+            competitors who retain the copyright of the image will be considered
+            for the competition.
+            <br />
+            <div className="ABSTEXT mt-5 ABSMOBILEBUTTONCLASS1">
+              For more details, please refer
+            </div>
+            <div class="ABSMAINCONT">
+              <div className="ABSMOBILEBUTTONCLASS1">
+                <a
+                  href={PhotoComp}
+                  download="PHOTOGRAPHY COMPETITION"
+                  target="_blank"
+                >
+                  <button
+                    className="ABSTEXT btn btn-outline-dark BUTTONTABVIEW"
+                    type="submit"
+                  >
+                    PHOTOGRAPHY COMPETITION
+                  </button>
+                </a>
+              </div>
 
-
-      </div></div></div>
-
-      <div className="back2"><div className="container"><div className="he1 text-center p-2 fs-3"><br></br>Research Photography Competition</div>
-        <div className=" hea2 p-2 fs-5">
-        The event will also include a research photography competition. Images related to research, taken with a microscope or normal camera may be submitted through the link provided below. Submissions may include experimental setups, laboratories, equipment, microscopic images, etc. The photographs need not be directly related to the theme of the conference. Only original images taken by the competitors who retain the copyright of the image will be considered for the competition.
-<br/>
-For more details, please see this document.
-<br/>
-Submit your images via:
-<br/>
-Conference Brochure:
-<br></br>
-          <br></br>
-
-
-
-
-        </div></div></div>
-
+              <div className="ABSMOBILECONT">
+                <div className="ABSMOBILEBUTTONCLASS2">
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSeX-yFZCREtThX-Yzimfnwjr52CMFplxSJKWzTu3YH2vO7Ang/viewform?usp=pp_url"
+                    target="_blank"
+                  >
+                    <button className="ABSTEXT btn btn-outline-dark BUTTONTABVIEW">
+                      SUBMIT YOUR IMAGES
+                    </button>
+                  </a>
+                </div>
+                <div className="ABSMOBILEBUTTONCLASS2">
+                  <a
+                    href={ConfBroc}
+                    download="ICSPT BROCHURE"
+                    target="_blank"
+                  >
+                    <button
+                      className="ABSTEXT btn btn-outline-dark BUTTONTABVIEW"
+                      type="submit"
+                    >
+                      CONFERENCE BROCHURE
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* <div className="back1"><div className="container"><div className="hea1 text-center p-2 fs-3">IIT Patna</div>
         <div className="he2 p-2 fs-5">
@@ -67,17 +141,10 @@ Conference Brochure:
       </div></div></div>
 
       <div className="back2"><div className="container"><div className="he1 text-center p-2 fs-3"><br></br>About Chemical and Biochemical Engineering Department</div>
-        <div className="hea2 p-2 fs-5">
+        <div className="ABSTEXTp-2 fs-5">
           The Chemical and Biochemical Engineering department of IITP was instituted in the year 2014. The department presently offers Bachelor of Technology, Master of Technology by Research, and Doctor of Philosophy degrees in Chemical Engineering. These programs aim to develop highly-qualified, self-motivated graduates who are independent and open-minded individuals capable of contributing to the industry, academia, and research and development programs.
           Currently, the department has 8 faculty members who are eager to contribute innovative solutions to meet societal needs. The department has established well-equipped laboratories for teaching and research purposes. The facilities in the department are focused on experiments and simulations applicable to various sectors like energy, specialty chemicals, materials, and waste management. Over 20 Ph.D. research scholars, 180 UG students, and around 100 alumni are proud members of the department. For more details, please click <a href="https://www.iitp.ac.in/index.php/departments/engineering-technology/chemical-and-biochemical-engineering" target="_blank" rel="noopener noreferrer" className="link-dark">Click here.</a><br></br><br></br>
         </div></div></div> */}
-
-
-
-
-
-
-
     </div>
   );
 }

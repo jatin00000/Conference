@@ -5,23 +5,24 @@ export default function RegisterComp() {
   return (
     <>
       
-<div className="r6">
-  <div className="r7">
+<div className="">
+  <div className="r7 p-3">
     <div className="container">
-        <div className="fs-2 text-left m-2 r1"><br></br>Registration Fee For Conference
+        <div className="REACHHEAD text-left"><br></br>Registration Fee For Conference
         </div>
-        <div className=" fs-4  m-2 r2">
+        <div className="LINE1"></div>
+        <div className="REACHTEXT" style={{marginTop: '10px', marginBottom: '5px'}}>
           All rates are in INR and inclusive of GST.</div>
           <div className="table-responsive">        <table class="table  table-bordered border-primary fs-5">
-          <caption className="r4">Registration fee includes conference kit, tea and snacks, and lunch during the conference. Accommodation is not included in the fee.</caption>
-          <thead className='thead r3'>
+          <caption className="ABSTEXT2">Registration fee includes conference kit, tea and snacks, and lunch during the conference. Accommodation is not included in the fee.</caption>
+          <thead className='thead  ABSTEXT3 '>
             <tr>
               <th scope="col">Participant Category</th>
               <th scope="col">Early-Bird rate</th>
               <th scope="col">Regular rate</th>
             </tr>
           </thead>
-          <tbody className="r4">
+          <tbody className="ABSTEXT2">
             <tr>
               <th scope="row">Students</th>
               <td>₹ 3,500.00</td>
@@ -40,20 +41,21 @@ export default function RegisterComp() {
           </tbody>
         </table></div>
 
-        <div className="fs-2 text-left r1 m-2">Bundled Registration Fee for Pre-conference Workshop & Conference
+        <div className="REACHHEAD text-left r1 m-2" >Bundled Registration Fee for Pre-conference Workshop & Conference
         </div>
-        <div className="fs-5 m-2 r2">
+        <div className="LINE2" ></div>
+        <div className="REACHTEXT" style={{marginTop: '10px', marginBottom: '5px'}}>
         (Those who register for the pre-conference workshop can attend the conference without additional registration. All rates are in INR and inclusive of GST)</div>
         <div className="table-responsive"><table class="table table-bordered border-primary fs-5">
-          <caption className="r4">Registration fee includes conference kit, tea and snacks, and lunch during the workshop and conference. Accommodation is not included in the fee.</caption>
-          <thead className='thead r3'>
+          <caption className="ABSTEXT2">Registration fee includes conference kit, tea and snacks, and lunch during the workshop and conference. Accommodation is not included in the fee.</caption>
+          <thead className='thead ABSTEXT3'>
             <tr>
               <th scope="col">Participant Category</th>
               <th scope="col">Early-Bird rate</th>
               <th scope="col">Regular rate</th>
             </tr>
           </thead>
-          <tbody className="r4">
+          <tbody className="ABSTEXT2">
             <tr>
               <th scope="row">Students</th>
               <td>₹ 5,000.00</td>
@@ -71,13 +73,17 @@ export default function RegisterComp() {
             </tr>
           </tbody>
         </table></div>
-  <div className="d-flex justify-content-around">
-     {/* <div className=""><button onClick={() => navigate("/register")} class="btn btn-primary btn-lg btn-block m-2">Register</button></div> */}
-     <div className="fs-5 m-2 r2">For registration, please make your payment online via the link below and then complete the registration form.
+     <div className="ABSTEXT2">For registration, please make your payment online via the link below and then complete the registration form.
             <br/>
-            Payment link:
             <br/>
-            Registration form:
+            <div className="row text-center">
+              <div className="col"><a href="#" target="_blank"><button className="ABSTEXT btn btn-light">MAKE PAYMENT</button></a></div>
+              <div className="col"><a href="https://forms.office.com/r/TfFSqRjgZZ" target="_blank"><button className="ABSTEXT btn btn-light">REGISTRATION FORM</button></a></div>
+            </div>
+            
+            
+            
+            <br/>
             <br/>
             For instructions, please see this document.
             </div>
@@ -85,7 +91,7 @@ export default function RegisterComp() {
 <br></br>
       </div>
         </div>
-  </div>
+
     </>
   )
 }

@@ -18,13 +18,14 @@ function Navbar(props) {
 					showNavbar();
 				}
 			}}>
-				<HashLink to="/#about" className="text-white nav-link">Home</HashLink>
-				<HashLink to="/#speaker" className="text-white nav-link">Speakers</HashLink>
-				<HashLink to="/#submission" className="text-white nav-link">Submission</HashLink>
-				<HashLink to="/#register_comp" className="text-white nav-link">Register</HashLink>
-				<HashLink to="/#schedule" className="text-white nav-link">Schedule</HashLink>
-				<HashLink to="/#theme" className="text-white nav-link">Theme</HashLink>
-				<HashLink to="/#timeline" className="text-white nav-link">Timeline</HashLink>
+				<HashLink to="/#about" className="NAVTEXT nav-link">Home</HashLink>
+				<HashLink to="/#theme" className="NAVTEXT  nav-link">Theme</HashLink>
+				<HashLink to="/#speaker" className="NAVTEXT  nav-link">Speakers</HashLink>
+				<HashLink to="/#submission" className="NAVTEXT  nav-link">Submission</HashLink>
+				<HashLink to="/#register_comp" className="NAVTEXT  nav-link">Register</HashLink>
+				<HashLink to="/#timeline" className="NAVTEXT  nav-link">Timeline</HashLink>
+				<HashLink to="/#schedule" className="NAVTEXT  nav-link">Schedule</HashLink>
+				<HashLink to="/#reaching" className="NAVTEXT  nav-link">Details</HashLink>
 				<button
 					className="nav-btn nav-close-btn"
 				>

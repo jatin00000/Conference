@@ -18,7 +18,7 @@ export default function Caroule() {
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
   </div>
 
-  <div className="carousel-inner mt-5">
+  <div className="carousel-inner">
     <div className="carousel-item active">
       <img src={i1} className="w-100 img-fluid myimg" alt="..."/>
      

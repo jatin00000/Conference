@@ -5,6 +5,15 @@
 	font-family: "Titillium Web", sans-serif;
 }
 
+.fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.fixed-top.scrolled .nav-link {
+  color:#555;
+}
+
 .mycustom {
   width: 200px;
   height: 200px;
@@ -66,9 +75,7 @@
     height: 450px;
 }
 
-.item, img{
-    position: absolute;
-}
+
 .carousel-caption{
   left: 0;
   right: 0;
