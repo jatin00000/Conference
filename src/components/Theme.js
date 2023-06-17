@@ -4,8 +4,12 @@ export default function Theme() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
-    
+    let height1 = document.getElementById('Q2').clientHeight
+    console.log(height1)
+    document.getElementById('Q1').style.height = `${height1}px`
+    document.getElementById('Q3').style.height = `${height1}px`
     const handleResize = () => {
+      
       setWindowWidth(window.innerWidth);
       let height1 = document.getElementById('Q2').clientHeight
     console.log(height1)
