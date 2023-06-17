@@ -21,11 +21,11 @@ function Navbar(props) {
 				<HashLink to="/#about" className="NAVTEXT nav-link">Home</HashLink>
 				<HashLink to="/#theme" className="NAVTEXT  nav-link">Theme</HashLink>
 				<HashLink to="/#speaker" className="NAVTEXT  nav-link">Speakers</HashLink>
-				<HashLink to="/#submission" className="NAVTEXT  nav-link">Submission</HashLink>
+				<HashLink to="/#submission" className="NAVTEXT  nav-link">Abstracts</HashLink>
 				<HashLink to="/#register_comp" className="NAVTEXT  nav-link">Register</HashLink>
 				<HashLink to="/#timeline" className="NAVTEXT  nav-link">Timeline</HashLink>
 				<HashLink to="/#schedule" className="NAVTEXT  nav-link">Schedule</HashLink>
-				<HashLink to="/#reaching" className="NAVTEXT  nav-link">Details</HashLink>
+				<HashLink to="/#reaching" className="NAVTEXT  nav-link">Other details</HashLink>
 				<button
 					className="nav-btn nav-close-btn"
 				>

@@ -14,7 +14,7 @@ export default function Places(){
 
 
             <div className="mb-0 ABSTEXT r2 m-2 text-center text-light">
-              <img src={image} className="w-100 Placeimg" alt="Logo" />
+              <img src={image} className="w-100 Placeimg" alt="Visit Patna" />
               <br/>
               <br/>
               <br/>
@@ -29,14 +29,15 @@ Other major tourist spots around Patna include Nalanda, Rajgir, and Bodh Gaya. F
               </p>
               <br/>
               <br/>
-              <h1></h1>
+
+   
               <p>
               
 
               </p>
               <br/>
               <br/>
-              <h1></h1>
+     
               <p>
                             
               

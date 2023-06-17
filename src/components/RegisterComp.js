@@ -1,5 +1,5 @@
 import React from 'react'
-//import { useNavigate } from "react-router-dom";
+import CMT from '../documents/CMT Registration and submission guidance.pdf'
 export default function RegisterComp() {
 //const navigate = useNavigate();
   return (
@@ -77,15 +77,16 @@ export default function RegisterComp() {
             <br/>
             <br/>
             <div className="row text-center">
-              <div className="col"><a href="#" target="_blank"><button className="ABSTEXT btn btn-light">MAKE PAYMENT</button></a></div>
-              <div className="col"><a href="https://forms.office.com/r/TfFSqRjgZZ" target="_blank"><button className="ABSTEXT btn btn-light">REGISTRATION FORM</button></a></div>
+              <div className="col"><a href="/" target="_blank"><button className="ABSTEXT btn btn-light" rel="noreferrer">MAKE PAYMENT</button></a></div>
+              <div className="col"><a href="https://forms.office.com/r/TfFSqRjgZZ" target="_blank" rel="noreferrer"><button className="ABSTEXT btn btn-light">REGISTRATION FORM</button></a></div>
             </div>
             
             
             
             <br/>
             <br/>
-            For instructions, please see this document.
+            For instructions, please see this document. <br/>
+            <a href={CMT} target="_blank" rel="noreferrer"><button className="ABSTEXT btn btn-light" type='submit'>DOCUMENT</button></a>
             </div>
     </div>
 <br></br>

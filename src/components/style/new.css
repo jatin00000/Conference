@@ -39,6 +39,8 @@ margin-top: 10px;
   width: 92%;
 }
 
+
+
 .button-71:hover {
   box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
   transform: scale(1.05);
@@ -86,7 +88,7 @@ margin-top: 10px;
 }
 .themebox {
   background-color: #ffffff;
-  height: 200px;
+  height: min-content;
   /* border: 2px solid #; */
 }
 .tourism {
@@ -132,6 +134,10 @@ margin-top: 10px;
 }
 .CONFTEXT {
   font-size: 28px;
+}
+#BookImg{
+  width: 100px;
+  aspect-ratio: inherit;
 }
 
 .ABSMAINCONT{

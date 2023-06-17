@@ -9,7 +9,6 @@ import RegisterComp from './RegisterComp'
 import Schedule from './schedule'
 import Places from './Places'
 import AbstractContent from'./AbstractContent'
-import BookImg from './BookImg'
 import Marquee from './Marquee'
 export default function Home() {
   return (
@@ -20,7 +19,6 @@ export default function Home() {
       <section id="theme"><Theme/></section>
       <section id="speaker"><Speaker/></section>
       <section id="submission"><AbstractContent/></section>
-      <BookImg/>
       <section id="register_comp"><RegisterComp/></section>
       <section id="timeline"><Timeline /></section>
       <section id="schedule"><Schedule /></section>

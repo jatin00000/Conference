@@ -1,6 +1,7 @@
 import React from "react";
 import "./style/new.css";
 import AbsTemp from "../documents/Abstract_template.docx";
+import BookImg from "./images/9.jpg";
 //import { useNavigate } from "react-router-dom";
 export default function RegisterComp() {
   //const navigate = useNavigate();
@@ -30,12 +31,26 @@ export default function RegisterComp() {
             style={{ fontWeight: "bold" }}
             href="https://www.sciencedirect.com/journal/chemical-engineering-research-and-design"
             target="_blank"
+            rel="noreferrer"
           >
             Chemical Engineering Research and Design
           </a>{" "}
           (IChemE publication in partnership with Elsevier; 4.119 Impact Factor)
           for publication after a due review process.
           <br />
+          <div
+            style={{
+              display: "flex",
+              flex: "wrap",
+              justifyContent: "space-around",
+            }}
+          >
+            <img
+              src={BookImg}
+              id="BookImg"
+              alt="Chemical Engineering Research and Design"
+            />
+          </div>
           <div className="row" style={{ marginTop: "5%" }}>
             <div className="ABSCONMOBILE col-xs-12 col-sm-6 col-md-6 col-lg-4">
               <div
@@ -51,6 +66,7 @@ export default function RegisterComp() {
                 target="_blank"
                 className="ABSBUTTONMOBILEFIX"
                 style={{ textDecoration: "none" }}
+                rel="noreferrer"
               >
                 <button
                   className="ABSTEXT btn btn-outline-dark BUTTONTABVIEW"
@@ -74,6 +90,7 @@ export default function RegisterComp() {
                 target="_blank"
                 className="ABSBUTTONMOBILEFIX"
                 style={{ textDecoration: "none" }}
+                rel="noreferrer"
               >
                 <button className=" ABSTEXT btn btn-outline-dark BUTTONTABVIEW">
                   SUBMIT ABSTRACT
@@ -86,12 +103,14 @@ export default function RegisterComp() {
                 style={{ borderTop: "0.5px solid black", width: "90%" }}
               ></div>
               For instructions regarding abstract submission, please see this
-              document.<br/>
+              document.
+              <br />
               <a
-                href=""
+                href="/"
                 target="_blank"
                 className="ABSBUTTONMOBILEFIX"
                 style={{ textDecoration: "none" }}
+                rel="noreferrer"
               >
                 <button className=" ABSTEXT btn btn-outline-dark BUTTONTABVIEW">
                   DOCUMENT

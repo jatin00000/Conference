@@ -62,7 +62,7 @@ Prior booking of the accommodation would be required. The conference team will g
         <br />
         <div className="ABSTEXT text-center m-2">For international participants who require a letter from the organizer for visa application, please fill out the online form here.
        <br/> 
-       <a href="https://forms.office.com/r/nPSZZeuMK0" target="_blank"><button class="button-71" role="button" type='submit'>ASSISTANCE FORM</button></a>
+       <a href="https://forms.office.com/r/nPSZZeuMK0" target="_blank" rel="noreferrer"><button class="button-71"  type='submit'>ASSISTANCE FORM</button></a>
 </div>        <br />
 
       </div>

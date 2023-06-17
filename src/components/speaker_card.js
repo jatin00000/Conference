@@ -24,10 +24,11 @@ export default function Card(props) {
           </div>
 
         </div>
+        
         <img
             className="SpeakerImg rounded-circle"
             src={require(`${props.imag}`)}
-            alt="Card"
+            alt={props.name}
           />
 
           <Modal

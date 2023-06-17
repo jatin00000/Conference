@@ -30,9 +30,9 @@ Indian Institute of Technology Patna</p>
             </div>
             <div className="row mt-2" >
             <div className="col-xs-12 col-md-6"><div className="text-center">
-            <a href="https://www.facebook.com/ICSPT2023" target="_blank"><img src={facebook} className='SOCIALMEDIA' alt="" /></a>
-            <a href="https://twitter.com/2023_ICSPT" target="_blank"><img src={insta} className='SOCIALMEDIA' alt="" /></a>
-            <a href="https://www.instagram.com/icspt2023/" target="_blank"><img src={twitter} className='SOCIALMEDIA' alt="" /></a>
+            <a href="https://www.facebook.com/ICSPT2023" target="_blank" rel="noreferrer"><img src={facebook} className='SOCIALMEDIA' alt="ICSPT Facebook" /></a>
+            <a href="https://twitter.com/2023_ICSPT" target="_blank" rel="noreferrer"><img src={insta} className='SOCIALMEDIA' alt="ICSPT Instagram" /></a>
+            <a href="https://www.instagram.com/icspt2023/" target="_blank" rel="noreferrer"><img src={twitter} className='SOCIALMEDIA' alt="ICSPT Twitter" /></a>
               
                
               
