@@ -1,5 +1,5 @@
 import React from 'react'
-import CMT from '../documents/CMT Registration and submission guidance.pdf'
+import PaymentInstruc from '../documents/SBI collect process.pdf'
 export default function RegisterComp() {
 //const navigate = useNavigate();
   return (
@@ -77,7 +77,7 @@ export default function RegisterComp() {
             <br/>
             <br/>
             <div className="row text-center">
-              <div className="col"><a href="/" target="_blank"><button className="ABSTEXT btn btn-light" rel="noreferrer">MAKE PAYMENT</button></a></div>
+              <div className="col"><a href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm?corpID=1968961" target="_blank" rel="noreferrer"><button className="ABSTEXT btn btn-light" rel="noreferrer">MAKE PAYMENT</button></a></div>
               <div className="col"><a href="https://forms.office.com/r/TfFSqRjgZZ" target="_blank" rel="noreferrer"><button className="ABSTEXT btn btn-light">REGISTRATION FORM</button></a></div>
             </div>
             
@@ -85,8 +85,8 @@ export default function RegisterComp() {
             
             <br/>
             <br/>
-            For instructions, please see this document. <br/>
-            <a href={CMT} target="_blank" rel="noreferrer"><button className="ABSTEXT btn btn-light" type='submit'>DOCUMENT</button></a>
+            For instructions regarding making payment, please see this document. <br/>
+            <a href={PaymentInstruc} target="_blank" rel="noreferrer"><button className="ABSTEXT btn btn-light" type='submit'>DOCUMENT</button></a>
             </div>
     </div>
 <br></br>

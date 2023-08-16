@@ -2,6 +2,7 @@ import React from "react";
 import "./style/new.css";
 import AbsTemp from "../documents/Abstract_template.docx";
 import BookImg from "./images/9.jpg";
+import CMT from '../documents/CMT Registration and submission guidance.pdf'
 //import { useNavigate } from "react-router-dom";
 export default function RegisterComp() {
   //const navigate = useNavigate();
@@ -106,7 +107,7 @@ export default function RegisterComp() {
               document.
               <br />
               <a
-                href="/"
+                href={CMT}
                 target="_blank"
                 className="ABSBUTTONMOBILEFIX"
                 style={{ textDecoration: "none" }}

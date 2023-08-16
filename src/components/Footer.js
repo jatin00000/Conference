@@ -15,7 +15,7 @@ export default function Footer(props) {
               <div className="col-xs-12 col-md-8">
                 <p className="text-center CONFTEXT mb-0 z1">Conference organizers</p>
                 <p className="text-center  MYTEXT mb-0 z2">Convenor:</p>
-                <p className="text-center  MYTEXT mb-0 z3">Dr. Jose V Parambil</p>
+                <a href="https://cpdliitpatna.com/" target="_blank" rel="noreferrer" className='text-decoration-none'><p className="text-center  MYTEXT mb-0 z3">Dr. Jose V Parambil</p></a>
                 <p className="text-center  MYTEXT mb-0 z4">Chemical and Biochemical Engineering Department, <br />
 Indian Institute of Technology Patna</p>
               </div>

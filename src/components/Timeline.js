@@ -7,7 +7,7 @@ export default function Timeline() {
       <div class="vr VRCONTROL"></div>
       <ul className="ABSTEXT t2 m-2">
         <ol >Abstract submission opens: 15 May 2023</ol>
-        <ol >Abstract submission deadline: 15 August 2023</ol>
+        <ol >Abstract submission deadline: 10 September 2023</ol>
         <ol >Intimation of acceptance of abstract: 15 September 2023</ol>
         <ol >Early-Bird registration: 30th September 2023</ol>
         <ol >Deadline for online Registration: 10th November 2023</ol>
