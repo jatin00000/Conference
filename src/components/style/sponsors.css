@@ -14,7 +14,7 @@
   position: absolute;
   width: 100%;
   bottom: 0;
-  box-shadow: 0 0 8px #D3F5CF;
+  box-shadow: 0 0 8px #d3f5cf;
   z-index: 1;
   overflow: hidden;
   transform: translateY(100%);
@@ -22,14 +22,16 @@
   opacity: 0;
   border-radius: 5px;
 }
-
+.sponsor-item {
+  padding: 16px;
+}
 .blurredBG:hover .parentBG {
   transform: translate(0);
   opacity: 1;
 }
 
 .blurredBG .content {
-  background:linear-gradient(to bottom, #D3F5CF, #A8DBFA);
+  background: linear-gradient(to bottom, #d3f5cf, #a8dbfa);
   padding: 20px;
   opacity: 0.9;
 }
@@ -42,4 +44,28 @@
   background-size: cover;
   z-index: -1;
   filter: blur(10px);
+}
+
+@media screen and (576px <= width <870px) {
+  .blurredBG,
+  .blurredBG .bG {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media screen and (width < 576px) {
+  .blurredBG,
+  .blurredBG .bG {
+    width: 200px;
+    height: 150px;
+    margin: 4px;
+  }
+  .content {
+    padding: 3px;
+    font-size: 11px;
+  }
+  .sponsor-item{
+    padding:4px;
+  }
 }

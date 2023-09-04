@@ -3,10 +3,10 @@ import "./style/sponsors.css";
 
 export default function Sponsors() {
   let about = [
-    "Jayant Agro-Organics Ltd. is an emerging global oleochemical company with leadership in the Castor based specialty chemicals industry.",
-    "",
+    " is an emerging global oleochemical company with leadership in the Castor based specialty chemicals industry.",
+    " ",
   ];
-  let links = ["http://www.jayantagro.com/", "#"];
+  let links = [["Jayant Agro-Organics Ltd.","http://www.jayantagro.com/"], ["SERB","#"]];
   return (
     <div className="sponsors-container">
       <div className="themehead text-center mt-0">Our Sponsors</div>
@@ -14,9 +14,9 @@ export default function Sponsors() {
         {Array(about.length) // You can change the number of sponsor items as needed
           .fill()
           .map((_, index) => (
-            <div key={index} className="p-3 sponsor-item">
-              <a
-                href={links[index]}
+            <div key={index} className="sponsor-item">
+              <div
+                href=""
                 style={{
                   backgroundImage: `url(${require(`./images/sponsors/${
                     index + 1
@@ -24,15 +24,15 @@ export default function Sponsors() {
                   backgroundSize: "100% 100%",
                 }}
                 className="blurredBG"
-                target="_blank" rel="noreferrer"
+                
               >
                 {about[index].length > 0 && (
                   <div className="parentBG">
-                    <div className="content ABSTEXT ">{about[index]} <br/></div>
+                    <div className="content ABSTEXT "><a href={links[index][1]} style={{textDecoration:'none', fontWeight:'bolder', color:'black'}} target="_blank" rel="noreferrer">{links[index][0]}</a> {about[index]} </div>
                     <div className="bG"></div>
                   </div>
                 )}
-              </a>
+              </div>
             </div>
           ))}
       </div>
