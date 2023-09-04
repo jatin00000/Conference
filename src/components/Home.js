@@ -10,6 +10,7 @@ import Schedule from './schedule'
 import Places from './Places'
 import AbstractContent from'./AbstractContent'
 import Marquee from './Marquee'
+import Sponsors from './Sponsors'
 export default function Home() {
   return (
     <>
@@ -19,7 +20,9 @@ export default function Home() {
       <section id="theme"><Theme/></section>
       <section id="speaker"><Speaker/></section>
       <section id="submission"><AbstractContent/></section>
+      
       <section id="register_comp"><RegisterComp/></section>
+      
       <section id="timeline"><Timeline /></section>
       <section id="schedule"><Schedule /></section>
       
@@ -30,7 +33,7 @@ export default function Home() {
       <section id="reaching"><Reaching/></section>
       <Places/>
       
-    
+      <Sponsors/>
     
     
     
