@@ -19,6 +19,7 @@ export default function Home() {
     <div id="about"><Content /></div>
       <section id="theme"><Theme/></section>
       <section id="speaker"><Speaker/></section>
+      <Sponsors/>
       <section id="submission"><AbstractContent/></section>
       
       <section id="register_comp"><RegisterComp/></section>
@@ -33,7 +34,7 @@ export default function Home() {
       <section id="reaching"><Reaching/></section>
       <Places/>
       
-      <Sponsors/>
+      
     
     
     
