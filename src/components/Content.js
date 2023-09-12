@@ -28,7 +28,7 @@ export default function Content() {
           </div>
         </div>
       </div>
-      <div className="back1s">
+      {/* <div className="back1s">
         <div className="">
           <div className="he1 text-center p-2 fs-3">
             <br></br>Pre-conference Workshop
@@ -48,7 +48,7 @@ export default function Content() {
             <br></br>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="back1s">
         <div className="">
           <div className="he1 text-center p-2 fs-3">

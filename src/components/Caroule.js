@@ -38,16 +38,14 @@ export default function Caroule() {
     
     <div class="z5 carousel-caption d-flex flex-column justify-content-center h-100 w-100" style={{top: 0}}>
       <div className="text-center"><br/>
-        <img src={logo} alt="..." style={{width: '100px', height: '100px', position: 'relative'}}/>
+        <img src={logo} alt="..." style={{width: '150px', height: '150px', position: 'relative'}}/>
       <br/></div>
           
           <p id="p1" className="fs-1">INTERNATIONAL CONFERENCE ON SEPARATION AND PURIFICATION TECHNOLOGIES (ICSPT)</p>
           <p id="p2" className="fs-5">7-8th December, 2023</p>
       
       <br/>
-      <p id="p3" className="fs-3">ANALYTICAL TECHNIQUES IN DOWNSTREAM SEPARATIONS</p>
-      <p id="p4" className="fs-5">(Pre-conference workshop: 5-6th Dec. 2023)
-</p>
+
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
