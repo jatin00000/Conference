@@ -91,6 +91,8 @@ export default function Content() {
                   href={PhotoComp}
                   download="PHOTOGRAPHY COMPETITION"
                   target="_blank"
+
+                  rel="noreferrer"
                 >
                   <button
                     className="ABSTEXT btn btn-outline-dark BUTTONTABVIEW"
@@ -105,7 +107,7 @@ export default function Content() {
                 <div className="ABSMOBILEBUTTONCLASS2">
                   <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSeX-yFZCREtThX-Yzimfnwjr52CMFplxSJKWzTu3YH2vO7Ang/viewform?usp=pp_url"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     <button className="ABSTEXT btn btn-outline-dark BUTTONTABVIEW">
                       SUBMIT YOUR IMAGES
@@ -113,16 +115,15 @@ export default function Content() {
                   </a>
                 </div>
                 <div className="ABSMOBILEBUTTONCLASS2">
-                  <a
-                    href={ConfBroc}
-                    download="ICSPT BROCHURE"
-                    target="_blank"
-                  >
+                  <a href={ConfBroc} download="ICSPT BROCHURE" target="_blank" rel="noreferrer">
                     <button
-                      className="ABSTEXT btn btn-outline-dark BUTTONTABVIEW"
+                      className="ABSTEXT btn btn-outline-dark BUTTONTABVIEW position-relative"
                       type="submit"
                     >
                       CONFERENCE BROCHURE
+                      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">
+                        New!
+                      </span>
                     </button>
                   </a>
                 </div>
