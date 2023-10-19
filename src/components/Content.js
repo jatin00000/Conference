@@ -95,10 +95,13 @@ export default function Content() {
                   rel="noreferrer"
                 >
                   <button
-                    className="ABSTEXT btn btn-outline-dark BUTTONTABVIEW"
+                    className="ABSTEXT btn btn-outline-dark BUTTONTABVIEW position-relative"
                     type="submit"
                   >
                     PHOTOGRAPHY COMPETITION
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">
+                        New!
+                      </span>
                   </button>
                 </a>
               </div>
